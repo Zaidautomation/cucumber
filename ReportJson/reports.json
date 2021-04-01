@@ -1,0 +1,116 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1210649,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.first(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User enter username and password",
+        "description": "",
+        "id": "login-functionality-for-adactin-application;user-enter-username-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 121298,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.second(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5753262222,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Launch the Application",
+            "match": {
+              "location": "LoginStepDefinition.user_Launch_the_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 239935283,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter \"mohamedzaid\" as username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mohamedzaid",
+                  "offset": 12
+                }
+              ],
+              "location": "LoginStepDefinition.user_enter_as_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 119040177,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter \"222222\" as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "222222",
+                  "offset": 12
+                }
+              ],
+              "location": "LoginStepDefinition.user_enter_as_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1266402548,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user verify valid username and password",
+            "match": {
+              "location": "LoginStepDefinition.user_verify_valid_username_and_password()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@123"
+          }
+        ]
+      }
+    ],
+    "name": "Login functionality for adactin application",
+    "description": "",
+    "id": "login-functionality-for-adactin-application",
+    "keyword": "Feature",
+    "uri": "Cucumber.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@sprint1"
+      }
+    ]
+  }
+]
